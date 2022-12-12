@@ -7,3 +7,5 @@ Tópico:
 1.Git
 2.Virtualenv
 3.Pip
+
+https://pythonpro.com.br/
