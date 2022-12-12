@@ -8,3 +8,6 @@ Tópico:
 2.Virtualenv
 3.Pip
 
+
+
+1.Pip
