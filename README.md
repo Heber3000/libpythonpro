@@ -20,6 +20,8 @@ flake8
 Link: https://pythonpro.com.br/
 
 [![Build Status](https://app.travis-ci.com/Heber3000/libpythonpro.svg?branch=master)](https://app.travis-ci.com/Heber3000/libpythonpro)
+=======
+
 
 Tópico:
 1.Git
@@ -27,11 +29,6 @@ Tópico:
 3.Pip
 =======
 
-.Link do curso pythonpro:https://pythonpro.com.br/
-
-
-1.Pip
-=======
 
 
 
