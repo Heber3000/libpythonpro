@@ -24,11 +24,6 @@ Tópico:
 3.Pip
 =======
 
-.Link do curso pythonpro:https://pythonpro.com.br/
-
-
-1.Pip
-=======
 
 
 
