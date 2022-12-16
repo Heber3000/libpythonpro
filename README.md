@@ -18,6 +18,8 @@ flake8
 """
 
 Link: https://pythonpro.com.br/
+
+
 Tópico:
 1.Git
 2.Virtualenv
