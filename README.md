@@ -18,6 +18,9 @@ flake8
 """
 
 Link: https://pythonpro.com.br/
+
+[![Build Status](https://app.travis-ci.com/Heber3000/libpythonpro.svg?branch=master)](https://app.travis-ci.com/Heber3000/libpythonpro)
+
 Tópico:
 1.Git
 2.Virtualenv
