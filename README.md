@@ -20,8 +20,6 @@ flake8
 Link: https://pythonpro.com.br/
 
 [![Build Status](https://app.travis-ci.com/Heber3000/libpythonpro.svg?branch=master)](https://app.travis-ci.com/Heber3000/libpythonpro)
-[![Updates](https://pyup.io/repos/github/Heber3000/libpythonpro/shield.svg)](https://pyup.io/repos/github/Heber3000/libpythonpro/)
-[![Python 3](https://pyup.io/repos/github/Heber3000/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/Heber3000/libpythonpro/)
 
 =========
 Tópico:
