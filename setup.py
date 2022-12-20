@@ -94,8 +94,8 @@ def find_package_data(
     return out
 
 
-PACKAGE = "libpythonpro-heber"
-NAME = PACKAGE
+PACKAGE = "libpythonpro"
+NAME ="libpython-heber"
 DESCRIPTION = "Módulo para exemplificar construção de projetos Python no curso PyTools"
 AUTHOR = "Heber Levy de Almeida"
 AUTHOR_EMAIL = "heberlevy@gmail.com"
