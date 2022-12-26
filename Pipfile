@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 flask = "*"
 codecov = "*"
+flake8 = "*"
 
 [dev-packages]
 pytest = "*"
