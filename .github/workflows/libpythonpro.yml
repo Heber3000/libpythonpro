@@ -27,18 +27,20 @@ jobs:
       - name: Set up Python 3.10
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11.1'
+          python-version: '3.11'
       - name: Copying configurations
         run: |
-
+          cp contrib/env-sample .env
       - name: Install dependencies
         run: |
+          pip install pipenv
+          pipenv sync --dev
       - name: Lint with flake8
         run: |
-
+          pipenv run flake8 .
       - name: Test with pytest
         run: |
-          pipenv run pytest heber3000 --cov=heber3000
+          pipenv run pytest pythonpro --cov=pythonpro
       - name: Posting Coverage
         env:
           CODECOV_TOKEN: "65d4c296-7803-4545-9b7c-69e21fa02753"
