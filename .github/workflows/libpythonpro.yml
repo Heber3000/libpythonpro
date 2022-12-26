@@ -30,7 +30,7 @@ jobs:
           python-version: '3.11.1'
       - name: Copying configurations
         run: |
-          cp contrib/env-sample .env
+          cp requirements-dev.txt
       - name: Install dependencies
         run: |
           pip install pipenv
