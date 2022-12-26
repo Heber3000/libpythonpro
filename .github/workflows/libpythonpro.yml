@@ -40,7 +40,7 @@ jobs:
 
       - name: Test with pytest
         run: |
-          pipenv run pytest pythonpro --cov=libpythonpro
+          pipenv run pytest Heber3000 --cov=libpythonpro
       - name: Posting Coverage
         env:
           CODECOV_TOKEN: "65d4c296-7803-4545-9b7c-69e21fa02753"
