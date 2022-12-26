@@ -1,0 +1,48 @@
+name: Libpythonpro
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    env:
+      PIPENV_NO_INHERIT: 1
+      PIPENV_IGNORE_VIRTUALENVS: 1
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:11.5
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        ports: [ '5432:5432' ]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Copying configurations
+        run: |
+
+      - name: Install dependencies
+        run: |
+          pip install pipenv
+          pipenv sync --dev
+      - name: Lint with flake8
+        run: |
+
+      - name: Test with pytest
+        run: |
+          pipenv run pytest
+      - name: Posting Coverage
+        env:
+          CODECOV_TOKEN: 65d4c296-7803-4545-9b7c-69e21fa02753
+        run: |
+          pipenv run codecov
