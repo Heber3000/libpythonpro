@@ -7,9 +7,14 @@ name = "pypi"
 flask = "*"
 codecov = "*"
 flake8 = "*"
+requests = "*"
 
 [dev-packages]
 pytest = "*"
+flake8 = "*"
+coverage = "*"
+pytest-cov = "*"
+pytest-mock = "*"
 
 [requires]
 python_version = "3.11"
